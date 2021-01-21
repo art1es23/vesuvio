@@ -8,10 +8,10 @@
   margin: auto
   position: relative
   justify-content: center
+  min-height: 100vh
   &--wrapper
     max-width: 100%
     width: 100%
-    min-height: 100%
     height: auto
     display: flex
     position: relative
@@ -23,18 +23,11 @@
     flex-direction: column
     width: 0
     height: 100%
-    animation: hide 1s ease-in-out forwards
     position: relative
-    background:
-      repeat: no-repeat
-      size: cover
-      position: center
-      attachment: fixed
-
     img
+      object-fit: cover
       width: 100%
       height: 100%
-      object-fit: cover
 
       &:nth-child(even)
         position: absolute
@@ -64,14 +57,14 @@
         cursor: pointer
 
 .btn
-    &--prev
-      border: 1px solid $olive
-      border-top-right-radius: 50%
-      border-bottom-right-radius: 50%
-    &--next
-      border: 1px solid $olive
-      border-top-left-radius: 50%
-      border-bottom-left-radius: 50%
+  &--prev
+    border: 1px solid $olive
+    border-top-right-radius: 50%
+    border-bottom-right-radius: 50%
+  &--next
+    border: 1px solid $olive
+    border-top-left-radius: 50%
+    border-bottom-left-radius: 50%
 
 .slide
   &-blog
@@ -126,17 +119,16 @@
 
 .activeSlide
   width: 100%
-  animation: show 1.575s ease-in-out forwards
+  animation: show 1.5s ease-in-out forwards
 
 .arrow
   width: 100%
   height: 100%
   display: flex
   margin: 0
-  background:
-    position: center
-    size: 35%
-    repeat: no-repeat
+  background-position: center
+  background-size: 50%
+  background-repeat: no-repeat
 
 .arrow__left
   background-image: url("../img/sprite.svg#left")
@@ -144,20 +136,28 @@
 .arrow__right
   background-image: url("../img/sprite.svg#right")
 
+@media screen and (max-width: 1224px)
+  .slider
+    &__item
+      img:nth-child(even)
+        width: 55vh
+
+@media screen and (max-width: 1024px)
+  .slider
+    &__item
+      img:nth-child(even)
+        width: 100%
+        right: 0
+        object-fit: contain
+    &-dots--wrapper
+      height: 6.5%
+    &-btn
+      &__item
+        width: 7.5%
+
 @media screen and (max-width: 768px)
   .slider
     &-btn
       &__item
         height: 20%
-        width: 7.5%
-
-@media screen and (max-width: 480px)
-  .slider
-    &--wrapper
-      min-height: 75vh
-    &__item
-      img:nth-child(even)
-        width: 100%
-        right: 0
-        left: 7.5%
-
+        width: 12.5%

@@ -1,5 +1,5 @@
 const tabsToggle = () => {
-    document.querySelectorAll('.tab-navigation__item').forEach((item)  => {
+    document.querySelectorAll('.tab-navigation__item').forEach((item) => {
         document.querySelector('.tab-navigation__item:first-child').classList.add('tab-navigation__item--active');
 
         item.addEventListener('click', e => {
@@ -15,8 +15,8 @@ const tabsToggle = () => {
 
             item.classList.add('tab-navigation__item--active');
             document.getElementById(id).classList.add('tab-description__item--active');
-        })
+        });
     });
-}
+};
 
 export default tabsToggle;

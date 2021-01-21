@@ -3,6 +3,10 @@
 .shop
   display: flex
   padding: 5% 0
+
+  &-slider
+    min-height: auto
+
   &--wrapper
     display: flex
     flex-direction: column
@@ -15,7 +19,6 @@
 
   &__title
     font-size: 3.5vw
-
 
 @media screen and (max-width: 1224px)
   .shop
@@ -32,7 +35,7 @@
     &-slider
       padding: 2.5% 0 7.5%
       .slider-dots--wrapper
-        height: 15%
+        height: 10%
 
 @media screen and (max-width: 480px)
   .shop
@@ -41,4 +44,4 @@
 
     &-slider
       .slider-dots--wrapper
-        height: 5%
+        height: 2.5%

@@ -17,6 +17,7 @@
     font-size: 3vw
     padding: 2.5% 0
     position: relative
+    font-weight: 600
     color: $olive
 
     &:after
@@ -49,6 +50,8 @@
   &__img
     height: 20rem
     overflow: hidden
+    img
+      object-fit: cover
 
 @media screen and (max-width: 1224px)
   .more-post
@@ -65,14 +68,20 @@
       font-size: 4vw
 @media screen and (max-width: 768px)
   .more-post
+    &-group
+      flex-direction: column
+    &__item
+      margin: 10% auto
     &__caption
-      font-size: 2.25vw
+      font-size: 3.5vw
     &__img
-      height: 10rem
+      height: auto
     &__title
       font-size: 5vw
     &__link
-      width: 100%
+      margin: auto
+      width: 60%
+      font-size: 3vw
 @media screen and (max-width: 480px)
   .more-post
     &-group
@@ -83,7 +92,7 @@
       margin: 5% 0
       padding: 5% 0
     &__caption
-      font-size: 3.75vw
+      font-size: 4.25vw
     &__img
       height: 15rem
     &__title
@@ -92,3 +101,4 @@
     &__link
       margin: 0
       width: 100%
+      font-size: 4vw

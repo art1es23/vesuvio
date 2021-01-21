@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Vesuvio</title>
@@ -8,103 +9,116 @@
     <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
+
 <body data-barba="wrapper">
 
+    <div class="loader">
+        <div class="loader__item"></div>
+    </div>
+
+    <header id="header" class="header">
+        <div class="logo">
+            <a href="./index.html" class="logo__link img-wrapper">
+                <img src="./img/logo.png" alt="">
+            </a>
+        </div>
+
+        <a class="menu"><span></span></a>
+
+        <nav class="navigation">
+            <ul class="navigation--wrapper">
+                <li class="navigation__item"><a href="./index.html" class="navigation__link">Головна</a></li>
+                <li class="navigation__item"><a href="./about.html" class="navigation__link">Про нас</a></li>
+                <li class="navigation__item">
+                    <a href="./products.html" class="navigation__link">Продукція</a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Оливкова олія</a>
+                            <ul>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Оливки</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Олія-спрей</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Помідори</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Вино</a></li>
+                    </ul>
+                </li>
+                <li class="navigation__item"><a href="./blog.html" class="navigation__link">Блог</a></li>
+                <li class="navigation__item"><a href="./shop.html" class="navigation__link">Магазин</a></li>
+                <li class="navigation__item"><a href="./downloads.html" class="navigation__link">Завантажити</a></li>
+                <li class="navigation__item"><a href="./contacts.html" class="navigation__link">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <div class="chooseLanguage">
+            <button class="chooseLanguage__item">UA</button>
+            <button class="chooseLanguage__item">RU</button>
+            <button class="chooseLanguage__item">EN</button>
+        </div>
+
+    </header>
+
+
     <div data-barba="container" data-barba-namespace="home" class="wrapper">
-
-        <header id="header" class="header">
-            <div class="logo">
-                <a href="#" class="logo__link img-wrapper">
-                    <img src="./img/logo.png" alt="">
-                </a>
-            </div>
-
-            <a class="menu"><span></span></a>
-
-            <nav class="navigation">
-                <ul class="navigation--wrapper">
-                    <li class="navigation__item"><a href="#" class="navigation__link">Головна</a></li>
-                    <li class="navigation__item"><a href="./about.html" class="navigation__link">Про нас</a></li>
-                    <li class="navigation__item">
-                        <a href="./products.html" class="navigation__link">Продукція</a>
-                        <ul class="submenu">
-                            <li class="submenu__item">
-                                <a href="" class="submenu__link">Submenu Link</a>
-                                <ul>
-                                    <li><a href="">Dropdown link</a></li>
-                                    <li><a href="">Dropdown link</a></li>
-                                    <li><a href="">Dropdown link</a></li>
-                                    <li><a href="">Dropdown link</a></li>
-                                    <li><a href="">Dropdown link</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                        </ul>
-                    </li>
-                    <li class="navigation__item"><a href="./blog.html" class="navigation__link">Блог</a></li>
-                    <li class="navigation__item"><a href="./shop.html" class="navigation__link">Магазин</a></li>
-                    <li class="navigation__item"><a href="./downloads.html" class="navigation__link">Завантажити</a></li>
-                    <li class="navigation__item"><a href="./contacts.html" class="navigation__link">Контакти</a></li>
-                </ul>
-            </nav>
-
-            <div class="chooseLanguage">
-                <button class="chooseLanguage__item">UA</button>
-                <button class="chooseLanguage__item">RU</button>
-                <button class="chooseLanguage__item">EN</button>
-            </div>
-
-        </header>
 
         <main id="mainContent" class="main-content">
 
             <section id="section1" class="slider">
-                    <div class="slider--wrapper">
-                        <div class="slider__item img-wrapper activeSlide">
-                            <img src="./img/slide1.jpeg" alt="">
-                            <img src="./img/slide-product.png" alt="">
-                        </div>
-                        <div class="slider__item img-wrapper">
-                            <img src="./img/slide2.jpeg" alt="">
-                            <img src="./img/slide-product.png" alt="">
-                        </div>
-                        <div class="slider__item img-wrapper">
-                            <img src="./img/slide3.jpeg" alt="">
-                            <img src="./img/slide-product.png" alt="">
-                        </div>
-                        <a class="slider-btn__item btn--prev"><span class="arrow arrow__left"></span></a>
-                        <a class="slider-btn__item btn--next"><span class="arrow arrow__right"></span></a>
+                <div class="slider--wrapper">
+                    <div class="slider__item img-wrapper activeSlide">
+                        <img src="./img/slide1.jpeg" alt="">
+                        <img src="./img/slide-product.png" alt="">
                     </div>
-                    <div class="slider-dots--wrapper">
-                        <span class="slider-dots__item active"></span>
-                        <span class="slider-dots__item"></span>
-                        <span class="slider-dots__item"></span>
+                    <div class="slider__item img-wrapper">
+                        <img src="./img/slide2.jpeg" alt="">
+                        <img src="./img/slide-product.png" alt="">
                     </div>
+                    <div class="slider__item img-wrapper">
+                        <img src="./img/slide3.jpeg" alt="">
+                        <img src="./img/slide-product.png" alt="">
+                    </div>
+                    <a class="slider-btn__item btn--prev"><span class="arrow arrow__left"></span></a>
+                    <a class="slider-btn__item btn--next"><span class="arrow arrow__right"></span></a>
+                </div>
+                <div class="slider-dots--wrapper">
+                    <span class="slider-dots__item active"></span>
+                    <span class="slider-dots__item"></span>
+                    <span class="slider-dots__item"></span>
+                </div>
             </section>
 
             <section class="out-turn">
-                    <div class="out-turn--wrapper">
-                        <div class="hero">
-                            <div class="hero__img img-wrapper"><img src="./img/hero-img.png" alt=""></div>
-                            <h2 class="hero__title">Особливості продукту</h2>
-                            <p class="hero__description">Оливкова олія не дарма вважається одним з найбільш корисних продуктів. Оливкова олія - рослинна олія, що виготовляється з плодів європейської маслини. Назва маслини, власне, і означає "масна", а оливи та оливок - "ті, що містять олію", "олійні". За жирнокислотним складом оливкова олія є сумішшю тригліцеридів жирних кислот з дуже високим вмістом ефірів олеїнової кислоти.</p>
-                        </div>
-
-                        <div class="new-product">
-                            <span class="new-product__caption img-wrapper">
-                                <img src="./img/new.png" alt="">
-                            </span>
-                            <div class="new-product--wrapper">
-                                <h2 class="new-product__title">Оливкова олія</h2>
-                                <p class="new-product__description">Це повинен бути холодний віджим - cold extraction - така олія не піддається жодній термічній обробці і зберігає максимум корисних речовин. Також, якщо використовується ранній збір оливок - early harvest - це дає більш інтенсивний смак. Усі ці параметри повинні бути вказані на упаковці продукту.</p>
-                                <a href="" class="link new-product__link">Дивитись</a>
-                            </div>
-                            <div class="new-product__img img-wrapper"><img src="./img/new-product.png" alt=""></div>
-                        </div>
+                <div class="out-turn--wrapper">
+                    <div class="hero">
+                        <div class="hero__img img-wrapper"><img src="./img/hero-img.png" alt=""></div>
+                        <h2 class="hero__title">Особливості продукту</h2>
+                        <p class="hero__description">Оливкова олія не дарма вважається одним з найбільш корисних
+                            продуктів. Оливкова олія - рослинна олія, що виготовляється з плодів європейської маслини.
+                            Назва маслини, власне, і означає "масна", а оливи та оливок - "ті, що містять олію",
+                            "олійні". За жирнокислотним складом оливкова олія є сумішшю тригліцеридів жирних кислот з
+                            дуже високим вмістом ефірів олеїнової кислоти.</p>
                     </div>
+
+                    <div class="new-product">
+                        <span class="new-product__caption img-wrapper">
+                            <img src="./img/new.png" alt="">
+                        </span>
+                        <div class="new-product--wrapper">
+                            <h2 class="new-product__title">Оливкова олія</h2>
+                            <p class="new-product__description">Це повинен бути холодний віджим - cold extraction - така
+                                олія не піддається жодній термічній обробці і зберігає максимум корисних речовин. Також,
+                                якщо використовується ранній збір оливок - early harvest - це дає більш інтенсивний
+                                смак. Усі ці параметри повинні бути вказані на упаковці продукту.</p>
+                            <a href="" class="link new-product__link">Дивитись</a>
+                        </div>
+                        <div class="new-product__img img-wrapper"><img src="./img/new-product.png" alt=""></div>
+                    </div>
+                </div>
             </section>
 
             <section class="brands">
@@ -112,7 +126,9 @@
                     <div class="brands--wrapper">
                         <div class="brands__item brands__description">
                             <h2 class="brands__title">Наші бренди</h2>
-                            <p class="brands__text">ТзОВ "Везувіо" представляє продукцію торгових марок VesuVio, La Contadina, Castelli Romani, Contadina, Fontenovella, Fra Ulivo, Senorio de Segura на території України.</p>
+                            <p class="brands__text">ТзОВ "Везувіо" представляє продукцію торгових марок VesuVio, La
+                                Contadina, Castelli Romani, Contadina, Fontenovella, Fra Ulivo, Senorio de Segura на
+                                території України.</p>
                         </div>
                         <div class="brands__item brands-logo">
                             <div class="brands-logo__item img-wrapper">
@@ -136,7 +152,7 @@
             </section>
 
             <section class="health img-wrapper">
-    <!--
+                <!--
                 <div class="health__img">
                     <img src="" alt="" class="health__img1">
                     <img src="" alt="" class="health__img2">
@@ -144,7 +160,7 @@
     -->
 
                 <img src="./img/health.png" alt="">
-<!--
+                <!--
                 <div class="health&#45;&#45;wrapper">
                     <h2 class="health__title"><span>Always</span><span>health</span></h2>
                     <ul class="health__list list-feature">
@@ -160,23 +176,29 @@
 
             <section class="popular-products">
                 <div class="container">
-                    <h2 class="popular-products__title">The most popular products</h2>
+                    <h2 class="popular-products__title">Найпопулярніші продукти</h2>
                     <div class="popular-products--wrapper">
 
                         <a href="./prod.html" class="popular-products__item popular-products__item1">
                             <h3 class="product__title">Al Aglio Spray (0.25)</h3>
                             <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Об'єм:</span><span>250 мл.</span></li>
-                                <li class="list-description__item"><span class="bold">Виробник:</span><span>VesuVio</span></li>
-                                <li class="list-description__item"><span class="bold">Країна виробник:</span><span>Італія</span><span class="country"></span></li>
+                                <li class="list-description__item"><span class="bold">Об'єм:</span><span>250 мл.</span>
+                                </li>
+                                <li class="list-description__item"><span
+                                        class="bold">Виробник:</span><span>VesuVio</span></li>
+                                <li class="list-description__item"><span class="bold">Країна
+                                        виробник:</span><span>Італія</span><span class="country"></span></li>
                             </ul>
                         </a>
                         <a href="./prod.html" class="popular-products__item popular-products__item2">
                             <h3 class="product__title">Al Aglio Spray (0.25)</h3>
                             <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Об'єм:</span><span>250 мл.</span></li>
-                                <li class="list-description__item"><span class="bold">Виробник:</span><span>VesuVio</span></li>
-                                <li class="list-description__item"><span class="bold">Країна виробник:</span><span>Італія</span><span class="country"></span></li>
+                                <li class="list-description__item"><span class="bold">Об'єм:</span><span>250 мл.</span>
+                                </li>
+                                <li class="list-description__item"><span
+                                        class="bold">Виробник:</span><span>VesuVio</span></li>
+                                <li class="list-description__item"><span class="bold">Країна
+                                        виробник:</span><span>Італія</span><span class="country"></span></li>
                             </ul>
                         </a>
                     </div>
@@ -191,7 +213,8 @@
                             <span>Натуральна<br>оливкова олія</span>
                         </p>
                         <p class="about__description">Наша олія, виготовлена за всіма нормами</p>
-                        <a href="" class="link about__link">Дивитись</a></div>
+                        <a href="" class="link about__link">Дивитись</a>
+                    </div>
                 </div>
             </section>
 
@@ -199,7 +222,7 @@
 
         <footer id="footer" class="footer">
             <div class="scroll-up">
-                <a href="" class="scroll-up__link"></a>
+                <a href="#main-content" class="scroll-up__link"></a>
             </div>
 
             <div class="footer--wrapper">
@@ -254,7 +277,7 @@
         </footer>
     </div>
 
-<!--    <svg class="">
+    <!--    <svg class="">
         <use xlink:href="./img/svg/sprite.svg#009-flamingo"></use>
     </svg>
     <svg class="">
@@ -262,5 +285,7 @@
     </svg>-->
 
     <script src="./js/main.js"></script>
+
 </body>
+
 </html>

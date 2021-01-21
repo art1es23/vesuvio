@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>About-us</title>
@@ -7,56 +8,62 @@
     <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
+
 <body data-barba="wrapper">
+
+    <div class="loader">
+        <div class="loader__item"></div>
+    </div>
+
+
+    <header id="header" class="header">
+        <div class="logo">
+            <a href="./index.html" class="logo__link img-wrapper">
+                <img src="./img/logo.png" alt="">
+            </a>
+        </div>
+        <a class="menu"><span></span></a>
+
+        <nav class="navigation">
+            <ul class="navigation--wrapper">
+                <li class="navigation__item"><a href="./index.html" class="navigation__link">Головна</a></li>
+                <li class="navigation__item"><a href="./about.html" class="navigation__link">Про нас</a></li>
+                <li class="navigation__item">
+                    <a href="./products.html" class="navigation__link">Продукція</a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Оливкова олія</a>
+                            <ul>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Оливки</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Олія-спрей</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Помідори</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Вино</a></li>
+                    </ul>
+                </li>
+                <li class="navigation__item"><a href="./blog.html" class="navigation__link">Блог</a></li>
+                <li class="navigation__item"><a href="./shop.html" class="navigation__link">Магазин</a></li>
+                <li class="navigation__item"><a href="./downloads.html" class="navigation__link">Завантажити</a></li>
+                <li class="navigation__item"><a href="./contacts.html" class="navigation__link">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <div class="chooseLanguage">
+            <button class="chooseLanguage__item">UA</button>
+            <button class="chooseLanguage__item">RU</button>
+            <button class="chooseLanguage__item">EN</button>
+        </div>
+
+    </header>
 
 
     <div data-barba="container" data-barba-namespace="about" class="wrapper">
-
-        <header id="header" class="header">
-            <div class="logo">
-                <a href="./index.html" class="logo__link img-wrapper">
-                    <img src="./img/logo.png" alt="">
-                </a>
-            </div>
-            <a class="menu"><span></span></a>
-
-            <nav class="navigation">
-                <ul class="navigation--wrapper">
-                    <li class="navigation__item"><a href="./index.html" class="navigation__link">Головна</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Про нас</a></li>
-                    <li class="navigation__item">
-                        <a href="./products.html" class="navigation__link">Продукція</a>
-                        <ul class="submenu">
-                            <li class="submenu__item">
-                                <a href="" class="submenu__link">Submenu Link</a>
-                                <ul>
-                                    <li><a href="">Dropdown link</a></li>
-                                    <li><a href="">Dropdown link</a></li>
-                                    <li><a href="">Dropdown link</a></li>
-                                    <li><a href="">Dropdown link</a></li>
-                                    <li><a href="">Dropdown link</a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                            <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                        </ul>
-                    </li>
-                    <li class="navigation__item"><a href="./blog.html" class="navigation__link">Блог</a></li>
-                    <li class="navigation__item"><a href="./shop.html" class="navigation__link">Магазин</a></li>
-                    <li class="navigation__item"><a href="./downloads.html" class="navigation__link">Завантажити</a></li>
-                    <li class="navigation__item"><a href="./contacts.html" class="navigation__link">Контакти</a></li>
-                </ul>
-            </nav>
-
-            <div class="chooseLanguage">
-                <button class="chooseLanguage__item">UA</button>
-                <button class="chooseLanguage__item">RU</button>
-                <button class="chooseLanguage__item">EN</button>
-            </div>
-
-        </header>
 
         <main id="mainContent" class="main-content">
             <section class="header-img img-wrapper">
@@ -86,42 +93,61 @@
                                     <span class="tab__number bold">2006</span>
                                     <span class="tab__legend bold">Наш продукт</span>
                                     <span class="tab__caption bold">100% натуральний продукт</span>
-                                    <p>Всі проекти оформляються юридично. До договору обов'язково прикріплюється додаток з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір тому підтвердження.</p>
+                                    <p>Всі проекти оформляються юридично. До договору обов'язково прикріплюється додаток
+                                        з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та
+                                        штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір
+                                        тому підтвердження.</p>
                                 </div>
 
                                 <div id="tab2" class="tab-description__item">
                                     <span class="tab__number bold">2008</span>
                                     <span class="tab__legend bold">Our product</span>
                                     <span class="tab__caption bold">Lorem ipsum dolor sit amet.</span>
-                                    <p>Всі asd aioj asds a sak sdksad ksadddd dddddddddddd dddddddddddd dddddddd юридично. До договору обов'язково прикріплюється додаток з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір тому підтвердження.</p>
+                                    <p>Всі asd aioj asds a sak sdksad ksadddd dddddddddddd dddddddddddd dddddddd
+                                        юридично. До договору обов'язково прикріплюється додаток з вартістю, графік
+                                        виконання та оплати робіт, наші гарантійні зобов'язання та штрафні санкції. Нам
+                                        не вигідно робити свою роботу повільно і погано, і договір тому підтвердження.
+                                    </p>
                                 </div>
 
                                 <div id="tab3" class="tab-description__item">
                                     <span class="tab__number bold">2009</span>
                                     <span class="tab__legend bold">Our product</span>
                                     <span class="tab__caption bold">Lorem ipsum dolor sit amet.</span>
-                                    <p>Всі проекти оформляються юридично. До  обов'язково прикріплюється додаток з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір тому підтвердження.</p>
+                                    <p>Всі проекти оформляються юридично. До обов'язково прикріплюється додаток з
+                                        вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та
+                                        штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір
+                                        тому підтвердження.</p>
                                 </div>
 
                                 <div id="tab4" class="tab-description__item">
                                     <span class="tab__number bold">2010</span>
                                     <span class="tab__legend bold">Our product</span>
                                     <span class="tab__caption bold">Lorem ipsum dolor sit amet.</span>
-                                    <p>Всі проекти оформляються юридично. До договору обов'язково прикріплюється додаток з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір тому підтвердження.</p>
+                                    <p>Всі проекти оформляються юридично. До договору обов'язково прикріплюється додаток
+                                        з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та
+                                        штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір
+                                        тому підтвердження.</p>
                                 </div>
 
                                 <div id="tab5" class="tab-description__item">
                                     <span class="tab__number bold">2010</span>
                                     <span class="tab__legend bold">Our product</span>
                                     <span class="tab__caption bold">Lorem ipsum dolor sit amet.</span>
-                                    <p>Всі проекти оформляються юридично. До договору обов'язково прикріплюється додаток з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір тому підтвердження.</p>
+                                    <p>Всі проекти оформляються юридично. До договору обов'язково прикріплюється додаток
+                                        з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та
+                                        штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір
+                                        тому підтвердження.</p>
                                 </div>
 
                                 <div id="tab6" class="tab-description__item">
                                     <span class="tab__number bold">2010</span>
                                     <span class="tab__legend bold">Our product</span>
                                     <span class="tab__caption bold">Lorem ipsum dolor sit amet.</span>
-                                    <p>Всі проекти оформляються юридично. До договору обов'язково прикріплюється додаток з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір тому підтвердження.</p>
+                                    <p>Всі проекти оформляються юридично. До договору обов'язково прикріплюється додаток
+                                        з вартістю, графік виконання та оплати робіт, наші гарантійні зобов'язання та
+                                        штрафні санкції. Нам не вигідно робити свою роботу повільно і погано, і договір
+                                        тому підтвердження.</p>
                                 </div>
 
 
@@ -132,7 +158,12 @@
 
                     <div class="about-us__item">
                         <h2 class="about-us__caption">Наша компанія</h2>
-                        <p class="about-us__description">«Все починається з оливок. Для високоякісної олії оливки повинні бути дуже гарної якості», — розповідає Світлана Щегрикович. — «Це означає зелені, може бути ледь фіолетовий бочок, не більше. І в цьому полягає найбільша складність для виробника: для того, щоб зібрати такий врожай, йому необхідно дуже сильно інвестувати в збір. Це можна порівняти з яблуком: поки воно зелене, ще не переспіле, воно дуже міцно сидить на гілці, тому струсити його неможливо.</p>
+                        <p class="about-us__description">«Все починається з оливок. Для високоякісної олії оливки
+                            повинні бути дуже гарної якості», — розповідає Світлана Щегрикович. — «Це означає зелені,
+                            може бути ледь фіолетовий бочок, не більше. І в цьому полягає найбільша складність для
+                            виробника: для того, щоб зібрати такий врожай, йому необхідно дуже сильно інвестувати в
+                            збір. Це можна порівняти з яблуком: поки воно зелене, ще не переспіле, воно дуже міцно
+                            сидить на гілці, тому струсити його неможливо.</p>
                     </div>
                 </div>
             </section>
@@ -141,6 +172,9 @@
 
 
         <footer id="footer" class="footer">
+            <div class="scroll-up">
+                <a href="#main-content" class="scroll-up__link"></a>
+            </div>
             <div class="footer--wrapper">
 
                 <ul class="footer__menu menu-links">
@@ -198,4 +232,5 @@
     <script src="./js/main.js"></script>
 
 </body>
+
 </html>

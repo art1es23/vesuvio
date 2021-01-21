@@ -10,9 +10,9 @@
   justify-content: space-between
   position: relative
   background:
-    repeat: no-repeat
-    size: 100%
-    position: center
+  repeat: no-repeat
+  size: 100%
+  position: center
   transition: all 0.3s ease-in-out
 
   &:hover,
@@ -44,17 +44,51 @@
     width: 50%
     margin-left: 2.5vw
 
+@media screen and (max-width: 1366px)
+  .blog-post
+    &__caption
+      font-size: 1.5vw
+    &__link
+      font-size: 1.25vw
+      width: 40%
+
 @media screen and (max-width: 1024px)
   .blog-post
-    height: 15rem
     &__caption
-      font-size: 1.35rem
+      font-size: 1.25rem
+      padding: 5%
     &__link
-      padding: 0.75rem 1rem
-      align-self: center
+      font-size: 1.5vw
+
+@media screen and ( max-width: 900px)
+  .blog-post
+    width: 75%
+    margin: 2.5% auto
+    &__caption
+      padding: 5% 10%
+      font-size: 3vw
+      text-align: justify
+    &__link
+      font-size: 2vw
+      padding: 1rem
+      width: 35%
+
+@media screen and ( max-width: 768px)
+  .blog-post
+    width: 80%
+    &__caption
+      font-size: 3.5vw
+    &__link
+      font-size: 3.25vw
 
 @media screen and (max-width: 480px)
   .blog-post
+    width: 100%
+    &__caption
+      font-size: 4.5vw
+    &__link
+      font-size: 3.5vw
+
     &__img
       width: 100%
       margin: 1rem 0

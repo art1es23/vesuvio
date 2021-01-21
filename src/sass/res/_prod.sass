@@ -8,9 +8,12 @@
   box-shadow: inset 0 0 200px 25px rgba($black, 0.75)
   padding: 0 7.5%
   &-slider
+    &__item
+      align-items: center
+      justify-content: center
 
     .slider-btn__item
-      width: 10%
+      width: 15%
       border-radius: 50%
       height: 10%
 
@@ -56,7 +59,6 @@
 
     &__item
       display: flex
-      align-items: center
       font-size: 1vw
       padding: 0.25rem 0
 
@@ -80,7 +82,7 @@
   font-size: 1vw
   width: 35%
   margin-top: 7.5%
-  line-height: 1.25rem
+  line-height: 1.25vw
   padding: 0.75rem 1rem
 
 @media screen and (max-width: 1366px)
@@ -101,6 +103,11 @@
   .prod
     &-slider
       padding: 0
+      img
+        height: 75%
+      .slider-btn__item
+        width: 12.5%
+        height: 7.5%
     &__title
       font-size: 2.75vw
     &__legend
@@ -115,6 +122,9 @@
 
 @media screen and (max-width: 1024px)
   .prod
+    &-slider
+      .slider-btn__item
+        width: 15%
     &__title
       font-size: 3vw
     &__legend
@@ -147,7 +157,14 @@
     &__item
       width: 80%
       padding: 0
-      .slider--wrapper
+    &-slider
+      min-height: auto
+      img
+        height: 100%
+      .slider-btn__item
+        height: 17.5%
+        width: 15%
+      &--wrapper
         min-height: auto
     &--wrapper
       padding-top: 17.5%
@@ -159,7 +176,10 @@
     &__description
       font-size: 2.5vw
   .order__link
-    font-size: 2.5vw
+    padding: 1.5rem 1rem
+    align-self: center
+    width: 60%
+    font-size: 2.75vw
 
 @media screen and (max-width: 480px)
   .prod
@@ -177,8 +197,4 @@
     &__description
       font-size: 4vw
   .order__link
-    font-size: 4vw
-    align-self: center
-    width: 60%
-
-
+    font-size: 5vw

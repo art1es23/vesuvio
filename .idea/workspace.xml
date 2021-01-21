@@ -9,15 +9,6 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
@@ -28,7 +19,318 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f858d7f-f861-42d0-b8d3-52b495022cc3" name="Default Changelist" comment="" />
+    <list default="true" id="1f858d7f-f861-42d0-b8d3-52b495022cc3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/downloads.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/downloads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/brands1.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/brands1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/brands2.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/brands2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/brands3.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/brands3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/brands4.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/brands4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/hero-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/hero-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/new-product.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/new-product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/pdf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/slide-product.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/slide-product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/prod.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/prod1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/prod2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/prod3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/.istanbul.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/bin/ttf2woff2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/build/addon.target.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/build/binding.Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/builderror.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/addon.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/backward_references.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/backward_references.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/bit_cost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/block_splitter.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/block_splitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/brotli_bit_stream.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/brotli_bit_stream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/cluster.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/command.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/context.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/dictionary.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/dictionary_hash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/encode.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/encode_parallel.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/encode_parallel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/entropy_encode.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/entropy_encode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/fast_log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/find_match_length.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/hash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/histogram.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/histogram.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/literal_cost.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/literal_cost.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/metablock.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/metablock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/port.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/prefix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/ringbuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/static_dict.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/streams.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/streams.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/streams.h.gch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/enc/write_bits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/fallback.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/font.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/font.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/glyph.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/glyph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/normalize.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/normalize.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/port.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/round.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/store_bytes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/table_tags.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/table_tags.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/transform.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/variable_length.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/variable_length.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/woff2_common.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/woff2_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/woff2_dec.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/woff2_dec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/woff2_enc.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/csrc/woff2/woff2_enc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/jssrc/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/jssrc/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/jssrc/ttf2woff2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/.bin/node-gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/.bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/bufferstreams/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/bufferstreams/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/bufferstreams/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/bufferstreams/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/bufferstreams/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/addon.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/bin/node-gyp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/DEPS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/OWNERS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/PRESUBMIT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/codereview.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/data/win/large-pdb-shim.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/gyp.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/gyp_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/MSVSNew.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/MSVSProject.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/MSVSSettings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/MSVSSettings_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/MSVSToolFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/MSVSUserFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/MSVSUtil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/MSVSVersion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/common_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/easy_xml_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/flock_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_scrollUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/analyzer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/android.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/cmake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/dump_dependency_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/eclipse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/gypd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/gypsh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/make.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/msvs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/msvs_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/ninja.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/ninja_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/xcode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/generator/xcode_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/input_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/mac_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/ninja_syntax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/ordered_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/simple_copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/win_tool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/xcode_ninja.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/pylib/gyp/xml_fix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/samples/samples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/samples/samples.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/Xcode/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/Xcode/Specifications/gyp.pbfilespec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/Xcode/Specifications/gyp.xclangspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/emacs/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/emacs/gyp-tests.el" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/emacs/gyp.el" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/emacs/testdata/media.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/emacs/testdata/media.gyp.fontified" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/graphviz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/pretty_gyp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/pretty_sln.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/gyp/tools/pretty_vcproj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/Find-VS2017.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/configure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/find-node-directory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/find-vs2017.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/node-gyp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/process-release.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/rebuild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/lib/remove.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/src/win_delay_load_hook.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/docker.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/fixtures/ca-bundle.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/fixtures/ca.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/fixtures/server.crt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/fixtures/server.key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/fixtures/test-charmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/process-exec-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/simple-proxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-addon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-configure-python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-download.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-find-accessible-sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-find-node-directory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-find-python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-install.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/test/test-process-release.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/node-gyp/tools/gyp/pylib/gyp/generator/compile_commands_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/semver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/semver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/semver/bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/semver/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/semver/range.bnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/semver/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/create.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/extract.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/high-level-opt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/large-numbers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/mkdir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/mode-fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/pax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/read-entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/replace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/unpack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/warn-mixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/winchars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/lib/write-entry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/tar/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/yallist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/yallist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/yallist/iterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/yallist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/node_modules/yallist/yallist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/tests/cli.mocha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/tests/expected/iconsfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/tests/expected/iconsfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ttf2woff2/tests/tests.mocha.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/downloads.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/downloads.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/brands1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brands1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/brands2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brands2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/brands3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brands3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/brands4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/brands4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/hero-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/hero-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/new-product.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/new-product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/pdf.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/pdf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/slide-product.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/slide-product.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_enterPageAbout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_enterPageAbout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_enterPageBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_enterPageBlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_enterPageContacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_enterPageContacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_enterPageDownloads.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_enterPageDownloads.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_enterPageProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_enterPageProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_enterPageProductGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_enterPageProductGallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_enterPageShop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_enterPageShop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_leavePageProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_leavePageProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_menuMobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_menuMobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/_slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/res/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/res/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prod.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/prod.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prod1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prod2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prod3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/helpers/_animations.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/helpers/_animations.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_about.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_barbaTransitions.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_barbaTransitions.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_brands.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_brands.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_choose-language.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_choose-language.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_hero.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_hero.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_list-description.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_list-description.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_modal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_modal.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_nav.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_nav.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_new-product.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_new-product.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_popular-products.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_popular-products.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_prod.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_prod.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_product.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_product.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_shop.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_shop.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_slider.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/res/_standart.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/res/_standart.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +395,23 @@
       <workItem from="1603287708803" duration="1395000" />
       <workItem from="1603380424318" duration="1198000" />
       <workItem from="1603438216466" duration="706000" />
-      <workItem from="1609368561462" duration="752000" />
+      <workItem from="1609368561462" duration="4692000" />
+      <workItem from="1609375440573" duration="2310000" />
+      <workItem from="1609381316321" duration="1641000" />
+      <workItem from="1609382974034" duration="6149000" />
+      <workItem from="1609413054520" duration="1108000" />
+      <workItem from="1609414192709" duration="896000" />
+      <workItem from="1609415107124" duration="3929000" />
+      <workItem from="1609424165530" duration="502000" />
+      <workItem from="1609424684780" duration="2600000" />
+      <workItem from="1609756558315" duration="5317000" />
+      <workItem from="1609762181898" duration="3680000" />
+      <workItem from="1609767262199" duration="100000" />
+      <workItem from="1609767380858" duration="136000" />
+      <workItem from="1609767927841" duration="4717000" />
+      <workItem from="1609922596440" duration="8210000" />
+      <workItem from="1609937307520" duration="5204000" />
+      <workItem from="1610354529666" duration="676000" />
     </task>
     <servers />
   </component>
@@ -138,19 +456,23 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1982" y="275" width="824" height="519" key="IDE.errors.dialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1602664609952" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1609417558873">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1609417558873" />
     <state x="2587" y="138" width="585" height="801" key="find.popup" timestamp="1603187550547">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2587" y="138" width="585" height="801" key="find.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603187550547" />
-    <state x="143" y="247" key="run.anything.popup" timestamp="1603380499595">
+    <state x="143" y="247" width="672" height="677" key="run.anything.popup" timestamp="1609929552268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="143" y="247" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603380499595" />
+    <state x="143" y="247" width="672" height="677" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1609929552268" />
     <state x="2063" y="247" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603198635125" />
-    <state x="142" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1603380497818">
+    <state x="142" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1609412868934">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="142" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603380497818" />
+    <state x="142" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1609412868933" />
     <state x="2062" y="237" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1603198634834" />
   </component>
 </project>

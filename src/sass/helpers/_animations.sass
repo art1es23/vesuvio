@@ -18,11 +18,31 @@
   100%
     box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.1)
 
+@keyframes leftSide
+  0%
+    opacity: 0
+    visibility: hidden
+    transform: translateX(-50%)
+  80%
+    transform: translateX(2.5%)
+  100%
+    opacity: 1
+    visibility: visible
+    transform: translateX(0)
+
 @keyframes show
   0%
     opacity: 0
     visibility: hidden
-    transform: translateX(100%)
+  100%
+    opacity: 1
+    visibility: visible
+
+@keyframes rightSide
+  0%
+    opacity: 0
+    visibility: hidden
+    transform: translateX(50%)
   80%
     transform: translateX(-2.5%)
   100%
@@ -40,7 +60,7 @@
   100%
     opacity: 0
     visibility: hidden
-    transform: translateX(-100%)
+    transform: translateX(-50%)
 @keyframes showModal
   0%
     opacity: 0
@@ -61,17 +81,19 @@
   100%
     opacity: 0
     visibility: hidden
-    transform: translateX(-100%)
+    transform: translateX(100%)
 
 @keyframes scaleItem
   0%
     transform: scale(1)
+    transition: $transition
   100%
-    transform: scale(1.025)
+    transform: scale(1.015)
+    box-shadow: 0 0 20px 2.5px $light-olive
 
 @keyframes unScaleItem
   0%
-    transform: scale(1.025)
+    transform: scale(1.015)
   100%
     transform: scale(1)
 

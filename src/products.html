@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Products</title>
@@ -7,477 +8,616 @@
     <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
+
 <body data-barba="wrapper">
 
-<div data-barba="container" data-barba-namespace="products" class="wrapper">
 
-<header id="header" class="header">
-    <div class="logo">
-        <a href="./index.html" class="logo__link img-wrapper">
-            <img src="./img/logo.png" alt="">
-        </a>
-    </div>
-    <a class="menu"><span></span></a>
+    <header id="header" class="header">
+        <div class="logo">
+            <a href="./index.html" class="logo__link img-wrapper">
+                <img src="./img/logo.png" alt="">
+            </a>
+        </div>
+        <a class="menu"><span></span></a>
 
-    <nav class="navigation">
-        <ul class="navigation--wrapper">
-            <li class="navigation__item"><a href="./index.html" class="navigation__link">Головна</a></li>
-            <li class="navigation__item"><a href="./about.html" class="navigation__link">Про нас</a></li>
-            <li class="navigation__item">
-                <a href="#" class="navigation__link">Продукція</a>
-                <ul class="submenu">
-                    <li class="submenu__item">
-                        <a href="" class="submenu__link">Submenu Link</a>
-                        <ul>
-                            <li><a href="">Dropdown link</a></li>
-                            <li><a href="">Dropdown link</a></li>
-                            <li><a href="">Dropdown link</a></li>
-                            <li><a href="">Dropdown link</a></li>
-                            <li><a href="">Dropdown link</a></li>
+        <nav class="navigation">
+            <ul class="navigation--wrapper">
+                <li class="navigation__item"><a href="./index.html" class="navigation__link">Головна</a></li>
+                <li class="navigation__item"><a href="./about.html" class="navigation__link">Про нас</a></li>
+                <li class="navigation__item">
+                    <a href="./products.html" class="navigation__link">Продукція</a>
+                    <ul class="submenu">
+                        <li class="submenu__item">
+                            <a href="" class="submenu__link">Оливкова олія</a>
+                            <ul>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                                <li><a href="">Dropdown link</a></li>
+                            </ul>
+                        </li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Оливки</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Олія-спрей</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Помідори</a></li>
+                        <li class="submenu__item"><a href="" class="submenu__link">Вино</a></li>
+                    </ul>
+                </li>
+                <li class="navigation__item"><a href="./blog.html" class="navigation__link">Блог</a></li>
+                <li class="navigation__item"><a href="./shop.html" class="navigation__link">Магазин</a></li>
+                <li class="navigation__item"><a href="./downloads.html" class="navigation__link">Завантажити</a></li>
+                <li class="navigation__item"><a href="./contacts.html" class="navigation__link">Контакти</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="chooseLanguage">
+            <button class="chooseLanguage__item">UA</button>
+            <button class="chooseLanguage__item">RU</button>
+            <button class="chooseLanguage__item">EN</button>
+        </div>
+
+    </header>
+
+
+    <div data-barba="container" data-barba-namespace="products" class="wrapper">
+
+
+
+        <main id="mainContent" class="main-content">
+
+            <section class="header-img img-wrapper">
+                <img src="./img/slide1.jpeg" alt="">
+                <img src="./img/slide-product.png" alt="">
+            </section>
+
+
+            <section class="products">
+                <div class="container">
+
+                    <h1 class="products__title title">Продукція</h1>
+                    <div id="section1" class="slider shop-slider">
+                        <div class="slider--wrapper">
+                            <div class="slider__item slide-shop activeSlide">
+
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio73.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio74.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio48.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio49.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio50.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio51.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio52.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio53.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio54.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="slider__item slide-shop">
+
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio55.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio56.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio57.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio58.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio59.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio60.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio61.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio62.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio63.png" alt=""></div>
+                                    <div class="product--wrapper">
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="slider__item slide-shop">
+
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio64.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio65.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio66.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio67.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio68.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio1.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio70.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio71.png" alt=""></div>
+                                    <div class="product--wrapper">
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+                                <a href="./prod.html" class="slide-shop__item product">
+                                    <div class="product__img img-wrapper"><img src="./img/vesuvio72.png" alt=""></div>
+                                    <div class="product--wrapper">
+
+                                        <h3 class="product__title">Al Aglio Spray(0.25)</h3>
+                                        <ul class="product__list list-description">
+                                            <li class="list-description__item"><span class="bold">Об'єм:</span><span>250
+                                                    мл</span></li>
+                                            <li class="list-description__item"><span
+                                                    class="bold">Виробник:</span><span>VesuVio</span></li>
+                                            <li class="list-description__item"><span class="bold">Країна
+                                                    виробник:</span><span>Італія</span></li>
+                                        </ul>
+
+                                        <button class="prod__link link">Замовити</button>
+                                    </div>
+                                </a>
+
+
+                            </div>
+
+                        </div>
+                        <div class="slider-dots--wrapper">
+                            <span class="slider-dots__item active"></span>
+                            <span class="slider-dots__item"></span>
+                            <span class="slider-dots__item"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+
+        <footer id="footer" class="footer">
+            <div class="scroll-up">
+                <a href="#main-content" class="scroll-up__link"></a>
+            </div>
+            <div class="footer--wrapper">
+
+                <ul class="footer__menu menu-links">
+                    <li class="menu-links__item">
+                        <h3 class="menu-links__title">Контакти</h3>
+                        <ul class="submenu-links">
+                            <li class="submenu-links__item">
+                                <span>T:</span>
+                                <a href="tel:+3802351047000">+38(023)510 47 00</a>
+                            </li>
+                            <li class="submenu-links__item">
+                                <span>E:</span>
+                                <a href="mail:info@gmail.com">info@gmail.com</a>
+                            </li>
                         </ul>
                     </li>
-                    <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                    <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                    <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
-                    <li class="submenu__item"><a href="" class="submenu__link">Submenu Link</a></li>
+                    <li class="menu-links__item">
+                        <h3 class="menu-links__title">Розташування</h3>
+                        <ul class="submenu-links">
+                            <li class="submenu-links__item">3rd Km National</li>
+                            <li class="submenu-links__item">Road Katerini - Larissa</li>
+                            <li class="submenu-links__item">Greece</li>
+                        </ul>
+                    </li>
+                    <li class="menu-links__item">
+                        <h3 class="menu-links__title">Google Maps</h3>
+                        <ul class="submenu-links">
+                            <li class="submenu-links__item"><a href="">Open in maps</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-links__item">
+                        <h3 class="menu-links__title">Соціальні мережі</h3>
+                        <ul class="submenu-links social-menu">
+                            <li class="social-menu__item">
+                                <a class="social-menu__link facebook" href=""></a>
+                            </li>
+                            <li class="social-menu__item">
+                                <a class="social-menu__link reddit" href=""></a>
+                            </li>
+                            <li class="social-menu__item">
+                                <a class="social-menu__link instagram" href=""></a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-            <li class="navigation__item"><a href="./blog.html" class="navigation__link">Блог</a></li>
-            <li class="navigation__item"><a href="./shop.html" class="navigation__link">Магазин</a></li>
-            <li class="navigation__item"><a href="./downloads.html" class="navigation__link">Завантажити</a></li>
-            <li class="navigation__item"><a href="./contacts.html" class="navigation__link">Контакти</a></li>
-        </ul>
-    </nav>
 
+                <p class="copyright">&copy; qmpwwsd</p>
 
-    <div class="chooseLanguage">
-        <button class="chooseLanguage__item">UA</button>
-        <button class="chooseLanguage__item">RU</button>
-        <button class="chooseLanguage__item">EN</button>
-    </div>
-
-</header>
-
-
-<main id="mainContent" class="main-content">
-
-    <section class="header-img img-wrapper">
-        <img src="./img/slide1.jpeg" alt="">
-        <img src="./img/slide-product.png" alt="">
-    </section>
-
-
-    <section class="products">
-        <div class="container">
-
-            <h1 class="products__title title">Продукція</h1>
-            <div id="section1" class="slider shop-slider">
-                <div class="slider--wrapper">
-                    <div class="slider__item slide-shop activeSlide">
-
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod2.html" class="slide-shop__item product">
-                        <div class="product--wrapper">
-
-                            <h3 class="product__title">Some title</h3>
-                            <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                            </ul>
-                            <button class="prod__link link">See more</button>
-                        </div>
-                        </a>
-                        <a href="./prod3.html" class="slide-shop__item product">
-                        <div class="product--wrapper">
-
-                            <h3 class="product__title">Some title</h3>
-                            <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                            </ul>
-                            <button class="prod__link link">See more</button>
-                        </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod2.html" class="slide-shop__item product">
-                        <div class="product--wrapper">
-
-                            <h3 class="product__title">Some title</h3>
-                            <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                            </ul>
-                            <button class="prod__link link">See more</button>
-                        </div>
-                        </a>
-                        <a href="./prod3.html" class="slide-shop__item product">
-                        <div class="product--wrapper">
-
-                            <h3 class="product__title">Some title</h3>
-                            <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                            </ul>
-                            <button class="prod__link link">See more</button>
-                        </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod2.html" class="slide-shop__item product">
-                        <div class="product--wrapper">
-
-                            <h3 class="product__title">Some title</h3>
-                            <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                            </ul>
-                            <button class="prod__link link">See more</button>
-                        </div>
-                        </a>
-                        <a href="./prod3.html" class="slide-shop__item product">
-                        <div class="product--wrapper">
-
-                            <h3 class="product__title">Some title</h3>
-                            <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                            </ul>
-                            <button class="prod__link link">See more</button>
-                        </div>
-                        </a>
-
-                    </div>
-                    <div class="slider__item slide-shop">
-
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod2.html" class="slide-shop__item product">
-                        <div class="product--wrapper">
-
-                            <h3 class="product__title">Some title</h3>
-                            <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                            </ul>
-                            <button class="prod__link link">See more</button>
-                        </div>
-                        </a>
-                        <a href="./prod3.html" class="slide-shop__item product">
-                        <div class="product--wrapper">
-
-                            <h3 class="product__title">Some title</h3>
-                            <ul class="product__list list-description">
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                            </ul>
-                            <button class="prod__link link">See more</button>
-                        </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="slider__item slide-shop">
-
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-                        <a href="./prod.html" class="slide-shop__item product">
-                            <div class="product--wrapper">
-
-                                <h3 class="product__title">Some title</h3>
-                                <ul class="product__list list-description">
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                    <li class="list-description__item"><span class="bold">Caption</span><span>lorem ipsum some</span></li>
-                                </ul>
-                                <button class="prod__link link">See more</button>
-                            </div>
-                        </a>
-
-
-                    </div>
-
-                </div>
-                <div class="slider-dots--wrapper">
-                    <span class="slider-dots__item active"></span>
-                    <span class="slider-dots__item"></span>
-                    <span class="slider-dots__item"></span>
-                </div>
             </div>
-
-        </div>
-    </section>
-</main>
+        </footer>
 
 
-    <footer id="footer" class="footer">
-        <div class="footer--wrapper">
-
-            <ul class="footer__menu menu-links">
-                <li class="menu-links__item">
-                    <h3 class="menu-links__title">Контакти</h3>
-                    <ul class="submenu-links">
-                        <li class="submenu-links__item">
-                            <span>T:</span>
-                            <a href="tel:+3802351047000">+38(023)510 47 00</a>
-                        </li>
-                        <li class="submenu-links__item">
-                            <span>E:</span>
-                            <a href="mail:info@gmail.com">info@gmail.com</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="menu-links__item">
-                    <h3 class="menu-links__title">Розташування</h3>
-                    <ul class="submenu-links">
-                        <li class="submenu-links__item">3rd Km National</li>
-                        <li class="submenu-links__item">Road Katerini - Larissa</li>
-                        <li class="submenu-links__item">Greece</li>
-                    </ul>
-                </li>
-                <li class="menu-links__item">
-                    <h3 class="menu-links__title">Google Maps</h3>
-                    <ul class="submenu-links">
-                        <li class="submenu-links__item"><a href="">Open in maps</a></li>
-                    </ul>
-                </li>
-                <li class="menu-links__item">
-                    <h3 class="menu-links__title">Соціальні мережі</h3>
-                    <ul class="submenu-links social-menu">
-                        <li class="social-menu__item">
-                            <a class="social-menu__link facebook" href=""></a>
-                        </li>
-                        <li class="social-menu__item">
-                            <a class="social-menu__link reddit" href=""></a>
-                        </li>
-                        <li class="social-menu__item">
-                            <a class="social-menu__link instagram" href=""></a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-
-            <p class="copyright">&copy; qmpwwsd</p>
-
-        </div>
-    </footer>
-
-
-</div>
+    </div>
 
     <script src="./js/main.js"></script>
 
 </body>
+
 </html>

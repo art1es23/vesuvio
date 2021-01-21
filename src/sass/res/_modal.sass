@@ -8,7 +8,7 @@
   height: 100vh
   background-color: rgba(black, 0.4)
   transition: $transition
-  z-index: 9999
+  z-index: 999
   opacity: 0
   visibility: hidden
   transform: translateX(-100%)
@@ -23,6 +23,7 @@
 
 .form-order
   display: flex
+  position: relative
   flex-direction: column
   padding: 3.5% 5%
   width: 45%
@@ -39,7 +40,7 @@
     margin: 2.5% 0
 
   &__title
-    font-size: 2.75rem
+    font-size: 2.5vw
 
   &__item
     margin: 2.5% 0
@@ -53,21 +54,110 @@
     label,
     input
       width: 90%
-      font-size: 1.5rem
+      font-size: 1.4vw
       padding: 1rem 0
 
     input
-      padding: 1rem 1.25rem
-      border:
-        bottom: 1px solid $olive
-        top: none
-        left: none
-        right: none
+      padding: 1rem 1.15rem
+      font-size: 1.2vw
+      border-bottom: 1px solid $olive
+      border-top: none
+      border-left: none
+      border-right: none
+      transition: $transition
+      &:hover,
+      &:active,
+      &:focus
+        border: none
+        box-shadow: 7.5px 15px 20px 2.5px rgba($light-olive, 0.5)
 
   &__btn
     border: none
     align-self: center
+    font-size: 1.5vw
 
+.btn--close
+  position: absolute
+  width: 3.5rem
+  height: 3.5rem
+  color: $black
+  background-color: transparent
+  display: flex
+  align-items: center
+  justify-content: center
+  border: none
+  font-size: 2.75vw
+  line-height: 3.5rem
+  top: 7.5%
+  right: 7.5%
+  transition: $transition
+  &:hover,
+  &:focus,
+  &:active
+    cursor: pointer
+    color: $olive
 
+@media screen and ( max-width: 1600px )
+  .form-order
+    width: 55%
+@media screen and ( max-width: 1366px )
+  .btn--close
+    font-size: 3.5vw
+@media screen and ( max-width: 1224px )
+  .form-order
+    &__item
+      label
+        font-size: 2vw
+      input
+        font-size: 1.25vw
+  .btn--close
+    width: 3rem
+    height: 2.5rem
+    font-size: 3vw
+@media screen and ( max-width: 1024px )
+  .form-order
+    width: 75%
+    &__title
+      font-size: 3.25vw
+    &__item
+      label
+        font-size: 2.5vw
+      input
+        font-size: 1.75vw
+  .btn--close
+    transform: translate(50%, -25%)
+@media screen and ( max-width: 768px )
+  .form-order
+    height: 100vh
+    width: 100%
+    padding: 10% 5%
+    align-items: center
+    justify-content: space-evenly
+    &--wrapper
+      flex-direction: column
 
+    &__item
+      width: 70%
+      margin: 1.5% auto
+      label
+        font-size: 3vw
+        width: 100%
+      input
+        width: 100%
+        font-size: 2.25vw
 
+    &__title
+      font-size: 6vw
+
+    &__btn
+      font-size: 3vw
+      width: 35%
+      padding: 1.5rem 1rem
+
+  .btn--close
+    top: 0
+    right: 0
+    transform: translate(0,0)
+    font-size: 7.5vw
+    height: 5rem
+    width: 5rem

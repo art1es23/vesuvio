@@ -1,15 +1,37 @@
 @import "./src/sass/helpers/var"
 
+
+.is-home
+  background: linear-gradient(to top, #f87853, #1f213f)
+.is-page-2
+  background: linear-gradient(to top, #dfe775, #1c323d)
+
+.is-transitioning
+  pointer-events: none
+  cursor: progress
+
+
 .products-leave
   clip-path: circle(100%)
   &-active
     position: fixed
     top: 0
-    left: 50%
+    left: 0
     transition: all 1s ease-in-out
   &-to
     clip-path: circle(0%)
 
+
+.products-once
+  clip-path: circle(0%)
+  &-active
+    transition: all 1.5s ease-in-out
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 9999
+  &-to
+    clip-path: circle(100%)
 
 .products-enter
   clip-path: circle(0%)
@@ -17,7 +39,7 @@
     transition: all 1.5s ease-in-out
     position: fixed
     top: 0
-    left: 50%
+    left: 0
     z-index: 9999
   &-to
     clip-path: circle(100%)
